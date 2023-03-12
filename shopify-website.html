@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <style>
+      body {
+        height: 1000px;
+        /* background: -webkit-linear-gradient(rgb(233, 233, 233), rgb(231, 231, 231)); */
+        background-color: white;
+      }
+
+      .navbar .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+      }
+
+      .yazilar {
+        text-align: center;
+        font-size: 25px;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+      }
+
+      .yazilar p,
+      h1 {
+        padding: 0;
+        margin: 20 0;
+      }
+
+      label input {
+        text-align: center;
+        margin-left: 420px;
+        height: 50px;
+        width: 300px;
+        border-radius: 4px;
+        border: 1px solid grey;
+      }
+
+      label input::placeholder {
+        font-size: 20px;
+        padding: 20px;
+        text-align: start;
+        color: grey;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+      }
+
+      button {
+        width: 150px;
+        height: 50px;
+        border-radius: 4px;
+        background-color: black;
+
+        margin-left: 10px;
+      }
+
+      button a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+      }
+      .main img {
+        width: 600px;
+        margin-top: 30px;
+      }
+      .main2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        box-sizing: border-box;
+      }
+      .kart1,
+      .kart2,
+      .kart3 {
+        margin: 15px;
+      }
+      .baslik,
+      .resim,
+      .aciklama {
+        box-sizing: border-box;
+        width: auto;
+        margin: 0 auto;
+      }
+
+      .main2 .baslik p {
+        font-weight: bold;
+      }
+      .main2 .aciklama p {
+        color: rgb(54, 51, 51);
+      }
+      .ara {
+        margin: 0 auto;
+        width: 1000px;
+      }
+      .main3 {
+        margin: 0 auto;
+        width: 850px;
+        margin-top: 150px;
+        text-align: center;
+      }
+      .main3 p {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      .questions {
+        margin: 0 auto;
+        width: 800px;
+      }
+      .questions .question {
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 28px;
+        font-size: 20px;
+        position: relative;
+        cursor: pointer;
+      }
+      .questions .question.open:after {
+        content: "-";
+      }
+      .questions .question:after {
+        content: "+";
+        position: absolute;
+        right: 16px;
+        top: 25%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg"
+          alt=""
+          width="120px"
+          height="80px"
+        />
+      </div>
+      <div class="yazilar">
+        <h1>Build your website with Shopify</h1>
+        <p>
+          All the tools, apps, integrations and themes you need to get started
+        </p>
+      </div>
+      <div class="butonlar">
+        <label for="">
+          <input type="text" placeholder="Enter your email adress" />
+        </label>
+        <button>
+          <a href="#"> <b>Start Free Trial</b> </a>
+        </button>
+        <p style="text-align: center; margin-top: 30px; color: rgb(59, 57, 57)">
+          Try Shopify free for 3 days, no credit card required. By entering your
+          email, you agree to <br />
+          receive marketing emails from Shopify.
+        </p>
+      </div>
+    </div>
+    <div class="main">
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/landers/ppc/website/hero-small-83f017c08356e1b69d531716b99faa0ff7ff6cee61097d7f5169a55032d79e73.png"
+        alt=""
+      />
+    </div>
+    <div class="main2">
+      <div class="kart1">
+        <div class="resim">
+          <img
+            src="https://media.istockphoto.com/id/1297171607/tr/vekt%C3%B6r/hoparl%C3%B6r-%C3%A7izgi-simgesi-megafon-sembol%C3%BC-vekt%C3%B6r-ill%C3%BCstrasyon.jpg?s=612x612&w=0&k=20&c=2ak3kIAv73RD16Q_fVayKRdBIc0EOz18MWD5Yua0N-E="
+            alt=""
+            width="90px"
+            height="90px"
+          />
+        </div>
+        <div class="baslik"><p>Do even more with Shopify apps</p></div>
+        <div class="aciklama">
+          <p>
+            Add features and functionality to your <br />
+            online store. From dropshipping to social <br />
+            media marketing, the Shopify App Store <br />
+            has over 6,000 apps to help you start, <br />
+            manage, and grow your business.
+          </p>
+        </div>
+      </div>
+      <div class="kart2">
+        <div class="resim">
+          <img
+            src="https://media.istockphoto.com/id/1297171607/tr/vekt%C3%B6r/hoparl%C3%B6r-%C3%A7izgi-simgesi-megafon-sembol%C3%BC-vekt%C3%B6r-ill%C3%BCstrasyon.jpg?s=612x612&w=0&k=20&c=2ak3kIAv73RD16Q_fVayKRdBIc0EOz18MWD5Yua0N-E="
+            alt=""
+            width="90px"
+            height="90px"
+          />
+        </div>
+        <div class="baslik"><p>Your website, your way</p></div>
+        <div class="aciklama">
+          <p>
+            Host your entire website on Shopify. <br />
+            You have complete control over the look and <br />
+            feel. From its layout, to content and <br />
+            colors. Choose from templates and <br />
+            themes in the Shopify theme store, or <br />
+            build it from scratch with full access to <br />
+            the HTML and CSS of your store.
+          </p>
+        </div>
+      </div>
+      <div class="kart3">
+        <div class="resim">
+          <img
+            src="https://media.istockphoto.com/id/1297171607/tr/vekt%C3%B6r/hoparl%C3%B6r-%C3%A7izgi-simgesi-megafon-sembol%C3%BC-vekt%C3%B6r-ill%C3%BCstrasyon.jpg?s=612x612&w=0&k=20&c=2ak3kIAv73RD16Q_fVayKRdBIc0EOz18MWD5Yua0N-E="
+            alt=""
+            width="90px"
+            height="90px"
+          />
+        </div>
+        <div class="baslik"><p>Expand your reach</p></div>
+        <div class="aciklama">
+          <p>
+            All Shopify websites include social media <br />
+            integration, such as Pinterest, Instagram, <br />
+            Facebook, Twitter, and Tumblr, and <br />
+            integrations with marketplaces such as <br />
+            Google, eBay and Walmart.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="ara">
+      <hr style="color: rgb(139, 139, 139)" />
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png"
+        alt=""
+      />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-b5cd674cc9203997e3a72f2726c8aaa3d594a27c2f69001b4ad833939e9af5ce.png"
+        alt=""
+      />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png"
+        alt=""
+      />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png"
+        alt=""
+      />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png"
+        alt=""
+      />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png"
+        alt=""
+      />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png"
+        alt=""
+      />
+      <img
+        src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png"
+        alt=""
+      />
+      <br />
+      <br />
+      <br />
+      <hr style="color: rgb(139, 139, 139)" />
+    </div>
+    <div class="main3">
+      <p style="font-weight: bold">
+        “We started with a simple site on Shopify ten years ago and have been
+        able to expand since then. The customer service is friendly, simple and
+        accessible for small businesses that want to grow.”
+      </p>
+      <p style="color: rgb(0, 0, 0)">Jose Urrutia, Founder | La Portegna</p>
+      <button class="box-shadow: 0 2px 2px 4px">
+        <a href="#">Start free trial</a>
+      </button>
+    </div>
+    <h1
+      style="
+        text-align: center;
+        color: rgb(41, 39, 39);
+        font-size: 50px;
+        margin-top: 170px;
+      "
+    >
+      FAQs
+    </h1>
+    <div class="questions">
+      <div class="question">What is a website builder?</div>
+      <div class="question">Which website builder is best to use?</div>
+      <div class="question">
+        How do you know which website builder was used for a website?
+      </div>
+      <div class="question">
+        Which website builder is best for small businesses?
+      </div>
+      <div class="question">
+        How do you build a website without a website builder?
+      </div>
+      <div class="question">
+        What is the best website builder for ecommerce?
+      </div>
+      <div class="question">What is the easiest website builder?</div>
+      <div class="question">Which website builder offers hosting?</div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".question").forEach(function(elem) {
+        elem.addEventListener("click", function(e) {
+          if(e.target.classList.has('open')) {
+            e.target.classList.remove('open')
+          }
+          else {
+            e.target.classList.add('open')
+          }
+        })
+      })
+    </script>
+  </body>
+</html>
